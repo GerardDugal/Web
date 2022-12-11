@@ -230,7 +230,7 @@ img {
 /* ======== section-home ======== */
 #index {
   min-height: 100vh;
-  background-image: url(../images/Aria/photo_2.jpg);
+  background-image: url(../Пикчи/Aria/photo_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -357,14 +357,14 @@ img {
   color: #bb2c00;
   text-decoration: none;
   padding-right: 59px;
-  background: url(../images/arrow.svg) no-repeat 95% center;
+  background: url(../Пикчи/arrow.svg) no-repeat 95% center;
   transition: 0.2s all;
   margin: auto 0 0 0;
 }
 
 .genre_card_more:hover,
 .genre_card_more:focus {
-  background: url(../images/arrow.svg) no-repeat right center;
+  background: url(../Пикчи/arrow.svg) no-repeat right center;
 }
 
 /* ======== post ======== */
