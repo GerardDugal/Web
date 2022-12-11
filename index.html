@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <title>Домашняя страница</title>
+
+    <style>
+      .itcss__items {
+        counter-reset: slide;
+      }
+
+      .itcss__item {
+        counter-increment: slide;
+      }
+
+      .itcss__item > div::before {
+        content: counter(slide);
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-style: italic;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    </style>
+    <!-- Подключаем JS слайдера -->
+    <script defer src="js/simple-adaptive-slider.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // активация слайдера
+        new ItcSimpleSlider(".itcss", {
+          loop: true,
+          autoplay: true,
+          swipe: true,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper_full">
+        <div class="header_inner">
+          <div class="logo">
+            <a href="/">
+              <img src="/Пикчи/logo_aria.png" alt="LOGO" class="logo_title" />
+            </a>
+          </div>
+          <nav>
+            <a class="nav-link" href="#index">ГЛАВНАЯ</a>
+            <a class="nav-link" href="#genre">АЛЬБОМЫ</a>
+            <a class="nav-link" href="#post">КОНЦЕРТЫ</a>
+            <a class="nav-link" href="#actor">МУЗЫКАНТЫ</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="index">
+      <div class="content_container">
+        <div class="wrapper_full">
+          <h1 class="intro_title"><span><img
+            src="/Пикчи/3gfBX.png"
+            width="450px"
+          /></span></h1>
+          <!-- <p class="intro_subtitle">
+            <span>АРИЯ</span>Советская и российская хеви-метал-группа. Одна из самых успешных российских рок-групп,
+            при этом - это одна из немногих российских метал-групп,
+            достигших серьёзного коммерческого и творческого успехов и популярности за пределами поклонников хэви-метала.
+          </p> -->
+        </div>
+      </div>
+    </section>
+    <section id="genre">
+      <div class="wrapper_full">
+        <div class="genre_wrapp">
+          <h2 class="genre_title">АЛЬБОМЫ</h2>
+          <div class="genre_cards">
+            <div class="genre_card">
+              <div class="genre_card_pic">
+                <img
+                  src="/Пикчи/Aria/альбомы/генер.jpg"
+                  alt="Comedy genre"
+                  class="genre_card_thumb"
+                />
+              </div>
+              <h3 class="genre_card_title">Генератор зла</h3>
+              <a href="./generator.html" class="genre_card_more" target="_blank"
+                >Слушать</a
+              >
+            </div>
+            <div class="genre_card">
+              <div class="genre_card_pic">
+                <img
+                  src="/Пикчи/Aria/альбомы/герой.jpg"
+                  alt="Ballet genre"
+                  class="genre_card_thumb"
+                />
+              </div>
+              <h3 class="genre_card_title">Герой асфальта</h3>
+              <a href="./hero.html" class="genre_card_more" target="_blank"
+                >Слушать</a
+              >
+            </div>
+            <div class="genre_card">
+              <div class="genre_card_pic">
+                <img
+                  src="/Пикчи/Aria/альбомы/Феникс.jpg"
+                  alt="Drama genre"
+                  class="genre_card_thumb"
+                />
+              </div>
+              <h3 class="genre_card_title">Феникс</h3>
+              <a href="./phoenix.html" class="genre_card_more" target="_blank"
+                >Слушать</a
+              >
+            </div>
+            <div class="genre_card">
+              <div class="genre_card_pic">
+                <img
+                  src="/Пикчи/Aria/альбомы/химера.jpg"
+                  alt="Mime genre"
+                  class="genre_card_thumb"
+                />
+              </div>
+              <h3 class="genre_card_title">Химера</h3>
+              <a href="./himera.html" class="genre_card_more" target="_blank"
+                >Слушать</a
+              >
+            </div>
+            <div class="genre_card">
+              <div class="genre_card_pic">
+                <img
+                  src="./Пикчи/Aria/альбомы/арма.jpg"
+                  alt="Opera genre"
+                  class="genre_card_thumb"
+                />
+              </div>
+              <h3 class="genre_card_title">Армагеддон</h3>
+              <a href="./arma.html" class="genre_card_more" target="_blank"
+                >Слушать</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="post">
+      <div class="posts">
+        <div class="wrapper_full">
+          <h2 class="post_title">КОНЦЕРТЫ</h2>
+          <div class="posts_post post">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./Пикчи/Aria/гость.jpg" />
+                <div class="text">Гость из царства теней</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/Пикчи/Aria/symph.jpg" />
+                <div class="text">Симфоническая Ария</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/Пикчи/Aria/coliz.jpg" />
+                <div class="text">Колизей</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div class="post_info">
+              <h3 class="post_secondary_title">Концертная деятельность</h3>
+              <p class="post_desc">
+                Концертная деятельность нашего коллектива проходит не только на маленьких площадках, но и на больших фестивалях.
+                Регулярные выступления и многочисленные туры помогли нам завоевать зрительскую любовь. Это лишь малая часть того, что нам ещё предстоит сыграть.
+              </p>
+              <a href="#" class="post_more">VIEW PREFECTURE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="actor">
+      <div class="wrapper_full">
+        <div class="actor_container">
+          <h2 class="actor_title">МУЗЫКАНТЫ</h2>
+        </div>
+        <div class="actor_container_cards">
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Виталий Дубинин</h3>
+                <p>
+                  Бас-гитарист АРИИ с 1987 года. За это время Виталий написал в одиночку и в соавторстве почти полсотни песен - большую и лучшую часть всего "арийского" репертуара.
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/Дуб.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Михаил Житняков</h3>
+                <p>
+                  Вокалист группы АРИЯ с 2011 года. За время работы с группой раскрылся не только как прекрасный исполнитель, но и как талантливый композитор и соавтор песен.
+                  На его счету несколько знаковых песен группы, Его творческий дебют - песня "Точка невозврата".
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/Житн.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Сергей Попов</h3>
+                <p>
+                  Настоящий мастер своего дела, виртуоз и импровизатор, неординарный композитор. Сергей присоединился к группе в октябре 2002 года.
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/попов.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Владимир Холстинин</h3>
+                <p>
+                  Бессменный участник АРИИ, собственно, и придумавший это название; 
+                  гитарист, хранитель "арийских" традиций и автор/соавтор многочисленных композиций.
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/холст.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Валерий Кипелов</h3>
+                <p>
+                  Советский и российский рок-музыкант, певец, композитор и автор песен, работающий в основном в жанре хеви-метал.
+                  Известен как один из основателей и первый вокалист рок-группы «Ария» с 1985 по 2002 год.
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/саныч.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Максим Удалов</h3>
+                <p>
+                  Можно сказать, трижды барабанщик АРИИ! В качестве "арийца" Макс дебютировал в 1987 году,
+                  записав с группой самый известный и любимый в народе альбоме "Герой Асфальта", и уже насовсем вернулся в родной коллектив осенью 2002-го.
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/удалов.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Сергей Маврин</h3>
+                <p>
+                  Советский и российский рок-музыкант, гитарист-виртуоз, композитор, звукорежиссёр.
+                  Участник групп «Чёрный кофе», «Металлаккорд», «Ария» и «Кипелов».
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/мавр.jpg" alt="" />
+            </div>
+          </div>
+          <div class="actor_card">
+            <div class="after">
+              <div class="effect-to-bottom">
+                <h3>Маргарита Пушкина</h3>
+                <p>
+                  Советская и российская поэтесса, журналистка, переводчица и издательница.
+                  Наиболее известна по сотрудничеству с русскими метал-группами,
+                  в числе которых «Ария», «Мастер», «Кипелов», «Маврин», «Артерия», «Catharsis» и «Гран-КуражЪ».
+                </p>
+                <center>
+                  <button class="more_button" type="submit">
+                    <a
+                      href="https://aria.ru/group/musicians"
+                      target="_blank"
+                      >Подробнее</a
+                    >
+                  </button>
+                </center>
+              </div>
+              <img src="/Пикчи/Aria/Участники/пушкина.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="video">
+      <div class="videos">
+        <div class="wrapper_full">
+          <video controls>
+            <source src="./video/Что такое театр.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section> -->
+
+    <footer class="footer">
+      <div class="wrapper_full">
+        <div class="footer_item">
+          <div class="footer_logo">
+            <a href="#home" class="footer_logo">
+              <img
+                src="./Пикчи/maxresdefault.png"
+                alt="Theatre"
+                class="footer_logo_pic"
+                width="200px"
+              />
+            </a>
+          </div>
+          <nav class="footer_nav">
+            <ul class="footer_menu">
+              <li class="footer_item">
+                <h3 class="footer_menu_title">Концертные Площадки</h3>
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://crocus-hall.ru"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >Крокус Сити</a
+                >
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://arena-park.ru"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >ВТБ Арена</a
+                >
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://www.luzhniki.ru/afisha/"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >Лужники</a
+                >
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://adrenaline-stadium.ru"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >Adrenaline Stadium</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer_menu">
+              <li class="footer_item">
+                <h3 class="footer_menu_title">Наши социальные сети</h3>
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://vk.com/aria_official"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >VKontakte</a
+                >
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://t.me/ariaru"
+                  class="footer_menu_link"
+                  target="_blank"
+                  >Telegram</a
+                >
+              </li>
+              <li class="footer_item">
+                <a
+                  href="https://music.yandex.ru/artist/164354"
+                  target="_blank"
+                  class="footer_menu_link"
+                  >Яндекс музыка</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="./script/main.js"></script>
+  </body>
+</html>
