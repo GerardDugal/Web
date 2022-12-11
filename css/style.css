@@ -230,7 +230,7 @@ img {
 /* ======== section-home ======== */
 #index {
   min-height: 100vh;
-  background-image: url(/Пикчи/Aria/photo_2.jpg);
+  background-image: url(../images/Aria/photo_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -357,14 +357,14 @@ img {
   color: #bb2c00;
   text-decoration: none;
   padding-right: 59px;
-  background: url(../пикчи/arrow.svg) no-repeat 95% center;
+  background: url(../images/arrow.svg) no-repeat 95% center;
   transition: 0.2s all;
   margin: auto 0 0 0;
 }
 
 .genre_card_more:hover,
 .genre_card_more:focus {
-  background: url(../пикчи/arrow.svg) no-repeat right center;
+  background: url(../images/arrow.svg) no-repeat right center;
 }
 
 /* ======== post ======== */
@@ -417,13 +417,13 @@ img {
   font-size: 16px;
   color: #ff0000;
   text-decoration: none;
-  background: url(../image/svg/arrow.svg) no-repeat 95% center;
+  background: url(../image/arrow.svg) no-repeat 95% center;
   transition: 0.2s all;
 }
 
 .post_more:hover,
 .post_more:focus {
-  background: url(../image/svg/arrow.svg) no-repeat right center;
+  background: url(../image/arrow.svg) no-repeat right center;
 }
 
 #post img {
@@ -716,83 +716,83 @@ a {
 }
 
 .front_one_generator {
-  background: url(/Пикчи/Aria/albums/photo_2022-06-14_15-40-15.jpg);
+  background: url(https://sun1-15.userapi.com/impg/o_lGCUuXsJ6EOOwFkaqJk1Zg9H628Bc8_TTvHw/zjhLawlkMhI.jpg?size=720x1080&quality=95&sign=cc8e416e227769694aeda136762e07a6&type=album);
 }
 
 .front_two_generator {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-17_12-44-59.jpg);
+  background: url(https://sun9-86.userapi.com/impg/9cFysda3uVDgaIP0soHwT9A1USROTB1EEQuQRg/-hg_rG1wWDg.jpg?size=1280x853&quality=95&sign=08a9a42174f697b4590ddfa742441d96&type=album);
 }
 
 .front_three_generator {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-24_10-16-59.jpg);
+  background: url(https://sun9-40.userapi.com/impg/7eXuErOGLXfn5YB81RDYHIMd_xOex5Z5y6aoLg/kxOpANALwx8.jpg?size=720x1080&quality=95&sign=e9dae8cba8c5d3f1ce9def1cb8bd7060&type=album);
 }
 
 .front_four_generator {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-26_16-48-27.jpg);
+  background: url(https://sun9-21.userapi.com/impg/dbYirSiobB51uyPMmvGRzzTJFuX1BHL-qKjDJg/Yb12NNoPWfI.jpg?size=1280x853&quality=95&sign=1dded1f42a5b7fa023bc3c6e2dd2f0c7&type=album);
 }
 
 .front_one_hero {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-29_22-37-50.jpg);
+  background: url(https://sun9-40.userapi.com/impg/RzTVRTMQ-HiatNQItn2-xkJV8pf9c5Z-ZBXwZQ/30vsFnWYoRk.jpg?size=1280x853&quality=95&sign=df0276e55dbc32686892f05a1cc48790&type=album);
 }
 
 .front_two_hero{
-  background: url(/Пикчи/Aria/albums/photo_2022-10-29_22-37-52.jpg);
+  background: url(https://sun9-8.userapi.com/impg/F8CIm_IimOb7c5y9vlOQZS0StoVsp_qNardKcQ/NfmBuVHh3k4.jpg?size=720x1080&quality=95&sign=f3b806810dec8afe558f2e51ff562beb&type=album);
 }
 
 .front_three_hero {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-29_22-37-53.jpg);
+  background: url(https://sun9-83.userapi.com/impg/KrqbqTMv5OD1M-TLQ0g4Q92tngTjpiCczj1elA/hCzH8-cEHYI.jpg?size=1280x960&quality=95&sign=fd0fbf5d48588dd843eb84c7ef4dbc3f&type=album);
 }
 
 .front_four_hero {
-  background: url(/Пикчи/Aria/albums/photo_2022-11-04_18-59-59.jpg);
+  background: url(https://sun1-92.userapi.com/impg/-Z8t0c8STd6Nm-NCviCvSH9dCJxD15NYu7JFKg/-T1aC_rhE7o.jpg?size=1280x853&quality=95&sign=56323435889518fd431040430d08ea3e&type=album);
 }
 
 .front_one_himera {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-24_10-16-59.jpg);
+  background: url(https://sun9-35.userapi.com/impg/oEKgRNFCVlfay_XFfrn6_ECAZZa1pksNA_QRnA/2CMfOqt_PkY.jpg?size=1280x1280&quality=95&sign=a3efb70069dce4510539539b9a3445f6&type=album);
 }
 
 .front_two_himera {
-  background: url(/Пикчи/Aria/albums/photo_2022-11-04_19-00-09.jpg);
+  background: url(https://sun9-41.userapi.com/impg/HXh99JyyaPKLy4txJoIFjhMp1awLx5PwG2eMZQ/4iXLkd4WR0s.jpg?size=1280x853&quality=95&sign=9d699570835e96cf845364543b1e3c34&type=album);
 }
 
 .front_three_himera {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-29_22-37-53.jpg);
+  background: url(https://sun9-43.userapi.com/impg/4ZEXA6KA7UpSPEPk76z4qm6cw1kJOsBpgskvhA/iAZ9EMmMFEk.jpg?size=1280x853&quality=95&sign=9c846ee6079051f9dc892690f324482b&type=album);
 }
 
 .front_four_himera {
-  background: url(/Пикчи/Aria/albums/photo_2022-11-04_18-59-59.jpg);
+  background: url(https://sun9-20.userapi.com/impg/vxjSKlAyGYJUHZ3iXgIauu420bcBNp2ppxevgA/8g4Gt29f9KA.jpg?size=1280x853&quality=95&sign=09cd316f9e51a0427134bae715509bad&type=album);
 }
 
 .front_one_f {
-  background: url(/Пикчи/Aria/albums/f1.jpg);
+  background: url(https://sun1-89.userapi.com/impg/13dbgU1SZzs21a7Ud7v34XU1cy2IqyHuKkJOFQ/h7P9Mr7SPJg.jpg?size=2120x1413&quality=95&sign=4f39194560d58f79554f5ea760b878ea&type=album);
 }
 
 .front_two_f {
-  background: url(/Пикчи/Aria/albums/f2.jpg);
+  background: url(https://sun1-15.userapi.com/impg/o_lGCUuXsJ6EOOwFkaqJk1Zg9H628Bc8_TTvHw/zjhLawlkMhI.jpg?size=720x1080&quality=95&sign=cc8e416e227769694aeda136762e07a6&type=album);
 }
 
 .front_three_f {
-  background: url(/Пикчи/Aria/albums/f3.jpg);
+  background: url(https://sun9-22.userapi.com/impg/Yw8Fv6LNO78FYg873BMNdwQf14vAjLRg1CiqXQ/Xk5G3KRm42U.jpg?size=1280x853&quality=95&sign=b7441c6375dfd24495ef22bd79065f80&type=album);
 }
 
 .front_four_f {
-  background: url(/Пикчи/Aria/albums/f4.jpg);
+  background: url(https://sun1-83.userapi.com/impg/_x2yY-OtmiXEFG1DVpophjtMMOimyaSwU4PU3g/7ZaKMoWAg58.jpg?size=810x1080&quality=95&sign=b7f254834f90cf6c4131b166cf59eaf3&type=album);
 }
 
 .front_one_arma {
-  background: url(/Пикчи/Aria/albums/photo_2022-06-14_15-40-15.jpg);
+  background: url(https://sun9-52.userapi.com/impg/70QeaiQpO7UiJUzYXbT0HO63b70pKLIFHXhyqA/NNKAjEb9Ewc.jpg?size=1280x853&quality=95&sign=eeec1b0637185b63d137b7fb034bab72&type=album);
 }
 
 .front_two_arma {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-17_12-44-59.jpg);
+  background: url(https://sun9-31.userapi.com/impg/KTnNWZweo5HD8yxR0vHcvfX3CHYt3dx-3l5u-Q/BWU6pFSPgUo.jpg?size=1280x853&quality=95&sign=830aa3ec27017bbddab62ee9a26421ce&type=album);
 }
 
 .front_three_arma {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-24_10-16-59.jpg);
+  background: url(https://sun9-31.userapi.com/impg/fkVqFEo91jCwizmAyZXYfoOFhRqU7Jx40S4MvQ/VkVrCX8qr_4.jpg?size=1280x853&quality=95&sign=6a936f402062cfec1948b347a7ff9b6b&type=album);
 }
 
 .front_four_arma {
-  background: url(/Пикчи/Aria/albums/photo_2022-10-26_16-48-27.jpg);
+  background: url(https://sun9-76.userapi.com/impg/rRh5kNAMlUmJlFXaHyriucK-gRded3M5poWhUw/KQyPJHKJcvM.jpg?size=1280x853&quality=95&sign=2344225de477747ab5c40a91a2013c6f&type=album);
 }
 
 .front,
